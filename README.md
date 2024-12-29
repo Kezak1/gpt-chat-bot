@@ -15,8 +15,7 @@ made a chat bot, using [this tutorial](https://alejandro-ao.com/how-to-use-strea
     ```
 
 ## Note:
-    - You can change the promt of the chat bot (modify):
-
+- You can change the promt of the chat bot (modify):
     ```python
     template = """
         You are a helpful assistant. Answer the foollowing questions considering the history of the conversation:
