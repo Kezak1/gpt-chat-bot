@@ -28,4 +28,4 @@ made a chat bot, using [this tutorial](https://alejandro-ao.com/how-to-use-strea
     ``` 
 
 ## Future Enchancements:
-    - Add more features.
+- Add more features.
