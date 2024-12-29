@@ -10,11 +10,11 @@ load_dotenv()
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-st.set_page_config(page_title="Streaming Bot")
+st.set_page_config(page_title = "Chat Bot", page_icon= "💀")
 
-st.title("Sreaming Bot")
+st.title("Chat Bot")
 
-# get response
+# output
 def get_response(query, chat_history):
     template = """
         You are a helpful assistant. Answer the foollowing questions considering the history of the conversation:
@@ -46,7 +46,7 @@ for message in st.session_state.chat_history:
             st.markdown(message.content)
 
 
-# user input
+# input
 user_query = st.chat_input("Your message")
 if user_query is not None and user_query != "":
     st.session_state.chat_history.append(HumanMessage(user_query))
