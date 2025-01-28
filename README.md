@@ -32,20 +32,6 @@ Simple chat bot. Made the app using [this tutorial](https://alejandro-ao.com/how
 	streamlit run .\src\app.py
 	```
 
-## Note
-
-- You can modify the promt of the chat bot in src/app.py:
-
-	```python
-	template = """
-		You are a helpful assistant. Answer the foollowing questions considering the 	history of the conversation:
-	
-		Chat history: {chat_history}
-	
-		User question: {user_question}
-	"""
-	```
-
 ## Future Enchancements
 
 - Add more features
