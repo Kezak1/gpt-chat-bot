@@ -1,4 +1,4 @@
-# LLM-app
+# OpenAI Chat Bot Clone
 
 Simple chat bot. Made the app using [this tutorial](https://alejandro-ao.com/how-to-use-streaming-in-langchain-and-streamlit/) and expand the source code. It has database with accounts (user id, password, user history). The program can be run only locally.
 
