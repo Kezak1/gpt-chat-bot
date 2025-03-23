@@ -7,8 +7,8 @@ Simple chat bot. Made the app using [this tutorial](https://alejandro-ao.com/how
 1. Clone the repository:
 
 	```bash
-	git clone git@github.com:Kezak1/LLM-app.git
-	cd LLM-app
+	git clone git@github.com:Kezak1/gpt-chat-bot.git
+	cd gpt-chat-bot
 	```
 
 2. Make, in repo directory, a file ".env" and put your OpenAI API key there:
